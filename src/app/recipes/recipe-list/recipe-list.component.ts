@@ -10,11 +10,6 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('Test Recipe', 'This is default description', 'https://www.hellomagazine.com/imagenes/cuisine/20210211106682/easy-chinese-new-year-recipes/0-514-324/chicken-a.jpg'),
     new Recipe('Test Recipe', 'This is default description', 'https://www.hellomagazine.com/imagenes/cuisine/20210211106682/easy-chinese-new-year-recipes/0-514-324/chicken-a.jpg'),
-    new Recipe('Test Recipe', 'This is default description', 'https://www.hellomagazine.com/imagenes/cuisine/20210211106682/easy-chinese-new-year-recipes/0-514-324/chicken-a.jpg'),
-    new Recipe('Test Recipe', 'This is default description', 'https://www.hellomagazine.com/imagenes/cuisine/20210211106682/easy-chinese-new-year-recipes/0-514-324/chicken-a.jpg'),
-    new Recipe('Test Recipe', 'This is default description', 'https://www.hellomagazine.com/imagenes/cuisine/20210211106682/easy-chinese-new-year-recipes/0-514-324/chicken-a.jpg'),
-    new Recipe('Test Recipe', 'This is default description', 'https://www.hellomagazine.com/imagenes/cuisine/20210211106682/easy-chinese-new-year-recipes/0-514-324/chicken-a.jpg')
-
   ];
   constructor() { }
 
